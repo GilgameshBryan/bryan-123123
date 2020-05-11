@@ -9,12 +9,12 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
 ;
 
 //加载Dplayer
-document.write('<script src="https://go.zgh.workers.dev/GoIndex/js/DPlayer.min.js"></script>');
-document.write('<script src="https://go.zgh.workers.dev/GoIndex/js/flv.min.js"></script>');
+document.write('<script src="//cdn.jsdelivr.net/gh/GilgameshBryan/goindex-them-nexmoe/js/DPlayer.min.js"></script>');
+document.write('<script src="//cdn.jsdelivr.net/gh/GilgameshBryan/goindex-them-nexmoe/js/flv.min.js"></script>');
 // 在head 中 加载 必要静态
-document.write('<link rel="stylesheet" href="https://go.zgh.workers.dev/GoIndex/css/mdui.min.css">');
+document.write('<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/GilgameshBryan/goindex-them-nexmoe/css/mdui.min.css">');
 // markdown支持
-document.write('<script src="https://go.zgh.workers.dev/GoIndex/js/markdown-it.min.js"></script>');
+document.write('<script src="//cdn.jsdelivr.net/npm/markdown-it@9.1.0/dist/markdown-it.min.js"></script>');
 document.write('<style>.mdui-container {max-width: 980px;} .zgh-item {margin: 20px -8px 0 !important;padding: 15px !important;border-radius: 5px;-webkit-box-shadow: 0 0.2em 1em rgba(204, 204, 204, .3);box-shadow: 0 0.2em 1em rgba(204, 204, 204, .3);background-color: #fff;} .mdui-toolbar {width: auto;margin-top: 30px !important;} .mdui-toolbar > a:last-child{opacity: 1;background-color: #1e89f2;color: #ffff;} .mdui-toolbar > a{padding: 0 16px;line-height: 30px;border-radius: 30px;border: 1px solid #eee;} .mdui-toolbar > *{padding: 0 6px;margin: 0 2px;opacity: .5;}</style>');
 // 初始化页面，并载入必要资源
 function init(){
